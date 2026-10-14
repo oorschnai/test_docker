@@ -1,0 +1,7 @@
+services:
+  web:
+    image: nginx:1.27-alpine
+    ports:
+      - "18081:80"
+    environment:
+      PATH_TEST_MARKER: compose-exact-path-ok
