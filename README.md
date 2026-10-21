@@ -79,4 +79,4 @@ Apps must use that exact extensionless file. The service publishes host port
 
 The exact Compose path should also be used by pause, resume, reboot, rollback,
 and cleanup operations. If an explicit-path deployment exposes a default
-marker instead, Apps incorrectly fell back to the root entrypoint.
+marker instead, Apps incorrectly fell back to the root entrypoint
